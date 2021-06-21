@@ -1,0 +1,49 @@
+  double tA[NUM_TRACKS]={4000,3000,5000,7000};
+
+  to[0][0].bSlot=   0, to[0][0].eSlot=  17, to[0][0].freq= 329.627557, to[0][0].amp= tA[0]; // e'
+  to[0][1].bSlot=  18, to[0][1].eSlot=  19, to[0][1].freq= 293.664768, to[0][1].amp= tA[0]; // d'
+  to[0][2].bSlot=  20, to[0][2].eSlot=  21, to[0][2].freq= 261.625565, to[0][2].amp= tA[0]; // c'
+  to[0][3].bSlot=  22, to[0][3].eSlot=  23, to[0][3].freq= 246.941651, to[0][3].amp= tA[0]; // b
+  to[0][4].bSlot=  24, to[0][4].eSlot=  25, to[0][4].freq= 261.625565, to[0][4].amp= tA[0]; // c'
+  to[0][5].bSlot=  26, to[0][5].eSlot=  27, to[0][5].freq= 293.664768, to[0][5].amp= tA[0]; // d'
+  to[0][6].bSlot=  28, to[0][6].eSlot=  29, to[0][6].freq= 329.627557, to[0][6].amp= tA[0]; // e'
+  to[0][7].bSlot=  30, to[0][7].eSlot=  31, to[0][7].freq= 261.625565, to[0][7].amp= tA[0]; // c'
+  to[0][8].bSlot=  32, to[0][8].eSlot=  43, to[0][8].freq= 440.000000, to[0][8].amp= tA[0]; // a'
+  to[0][9].bSlot=  44, to[0][9].eSlot=  45, to[0][9].freq= 493.883301, to[0][9].amp= tA[0]; // b'
+  to[0][10].bSlot= 46, to[0][10].eSlot= 47, to[0][10].freq=523.251131, to[0][10].amp=tA[0]; // c''
+  to[0][11].bSlot= 48, to[0][11].eSlot= 48, to[0][11].freq=349.228231, to[0][11].amp=tA[0]; // f'
+  to[0][12].bSlot= 49, to[0][12].eSlot= 49, to[0][12].freq=329.627557, to[0][12].amp=tA[0]; // e'
+  to[0][13].bSlot= 50, to[0][13].eSlot= 59, to[0][13].freq=349.228231, to[0][13].amp=tA[0]; // f'
+  to[0][14].bSlot= 60, to[0][14].eSlot= 63, to[0][14].freq=293.664768, to[0][14].amp=tA[0]; // d'
+
+
+  to[1][0].bSlot=   0, to[1][0].eSlot=  19, to[1][0].freq= 261.625565, to[1][0].amp= tA[1]; // c'
+  to[1][1].bSlot=  32, to[1][1].eSlot=  47, to[1][1].freq= 349.228231, to[1][1].amp= tA[1]; // f'
+  to[1][2].bSlot=  48, to[1][2].eSlot=  63, to[1][2].freq= 293.664768, to[1][2].amp= tA[1]; // d'
+
+
+  to[2][0].bSlot=   0, to[2][0].eSlot=  31, to[2][0].freq= 195.997718, to[2][0].amp= tA[2]; // g
+  to[2][1].bSlot=  32, to[2][1].eSlot=  47, to[2][1].freq= 261.625565, to[2][1].amp= tA[2]; // c'
+  to[2][2].bSlot=  48, to[2][2].eSlot=  63, to[2][2].freq= 220.000000, to[2][2].amp= tA[2]; // a
+
+
+  to[3][0].bSlot=   0, to[3][0].eSlot=   3, to[3][0].freq= 130.812783, to[3][0].amp= tA[3]; // c
+  to[3][1].bSlot=   6, to[3][1].eSlot=   7, to[3][1].freq= 130.812783, to[3][1].amp= tA[3]; // c
+  to[3][2].bSlot=   8, to[3][2].eSlot=  11, to[3][2].freq= 123.470825, to[3][2].amp= tA[3]; // B
+  to[3][3].bSlot=  14, to[3][3].eSlot=  15, to[3][3].freq= 123.470825, to[3][3].amp= tA[3]; // B
+  to[3][4].bSlot=  16, to[3][4].eSlot=  19, to[3][4].freq= 110.000000, to[3][4].amp= tA[3]; // A
+  to[3][5].bSlot=  22, to[3][5].eSlot=  23, to[3][5].freq= 110.000000, to[3][5].amp= tA[3]; // A
+  to[3][6].bSlot=  24, to[3][6].eSlot=  27, to[3][6].freq=  97.998859, to[3][6].amp= tA[3]; // G
+  to[3][7].bSlot=  30, to[3][7].eSlot=  31, to[3][7].freq=  97.998859, to[3][7].amp= tA[3]; // G
+  to[3][8].bSlot=  32, to[3][8].eSlot=  35, to[3][8].freq=  87.307058, to[3][8].amp= tA[3]; // F
+  to[3][9].bSlot=  38, to[3][9].eSlot=  39, to[3][9].freq=  87.307058, to[3][9].amp= tA[3]; // F
+  to[3][10].bSlot= 40, to[3][10].eSlot= 43, to[3][10].freq= 82.406889, to[3][10].amp=tA[3]; // E
+  to[3][11].bSlot= 46, to[3][11].eSlot= 47, to[3][11].freq= 82.406889, to[3][11].amp=tA[3]; // E
+  to[3][12].bSlot= 48, to[3][12].eSlot= 51, to[3][12].freq= 73.416192, to[3][12].amp=tA[3]; // D
+  to[3][13].bSlot= 54, to[3][13].eSlot= 55, to[3][13].freq= 73.416192, to[3][13].amp=tA[3]; // D
+  to[3][14].bSlot= 56, to[3][14].eSlot= 59, to[3][14].freq= 65.406391, to[3][14].amp=tA[3]; // C
+  to[3][15].bSlot= 62, to[3][15].eSlot= 63, to[3][15].freq= 65.406391, to[3][15].amp=tA[3]; // C
+
+
+
+

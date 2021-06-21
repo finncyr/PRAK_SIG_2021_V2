@@ -18,3 +18,8 @@ to[1][2].bSlot=2, to[1][2].eSlot=2, to[1][2].freq=195.997718, to[1][2].amp=A2; /
 to[1][3].bSlot=3, to[1][3].eSlot=5, to[1][3].freq=130.812783, to[1][3].amp=A2; // c
 to[1][4].bSlot=6, to[1][4].eSlot=6, to[1][4].freq=164.813778, to[1][4].amp=A2; // e
 to[1][5].bSlot=7, to[1][5].eSlot=7, to[1][5].freq=174.614116, to[1][5].amp=A2; // f
+
+
+150 BPM, virtel -> 0,4 Sekunden pro Virtel
+
+Eine Virtel bei 150 BPM und 48kHz -> 19200 Samples
