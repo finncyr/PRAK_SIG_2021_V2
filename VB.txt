@@ -23,3 +23,10 @@ to[1][5].bSlot=7, to[1][5].eSlot=7, to[1][5].freq=174.614116, to[1][5].amp=A2; /
 150 BPM, virtel -> 0,4 Sekunden pro Virtel
 
 Eine Virtel bei 150 BPM und 48kHz -> 19200 Samples
+
+
+Virtel bei 80 BPM -> 0,75 Sekunde pro Virtel
+
+Sechzehntel bei 80 BPM -> 0,1875 s
+
+
